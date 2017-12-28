@@ -1,13 +1,14 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
-  "main": "bot.js",
+  "name": "Nut",
+  "description": "Nut bot2 ",
+  "version": "0.2.0",
+  "main": "app.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
+    "roblox-js":""1.2.0""
   }
 }

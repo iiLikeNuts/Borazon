@@ -6,7 +6,7 @@ const client = new Discord.Client;
 client.on('ready',()>= {
   console.log('i am ready');
 });
-rbx.login("Borazon_Bot","botnamednut")
+rbx.login("Borazon_Bot",process.env.pass)
 client.on('message',message => {
 
 if(message.content === ":promote")

@@ -1,12 +1,11 @@
 var Discord = require('discord.js')
 var rblx = require('roblox.js')
 
-const Events = Discord.Events;
 const client = new Discord.Client;
 client.on('ready',()>= {
   console.log('i am ready');
 });
-rbx.login("Borazon_Bot",process.env.pass)
+rbx.login("Borazon_Bot",process.env.pass);
 client.on('message',message => {
 
 if(message.content === ":promote")
